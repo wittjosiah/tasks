@@ -1,0 +1,38 @@
+{
+  "name": "tasks",
+  "version": "0.1.0",
+  "description": "canary application for DXOS releases",
+  "private": true,
+  "scripts": {
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "serve": "vite"
+  },
+  "dependencies": {
+    "@dxos/config": "next",
+    "@effect/schema": "^0.75.5",
+    "@dxos/echo-schema": "next",
+    "@dxos/react-client": "next",
+    "@dxos/shell": "next",
+    "@dxos/util": "next",
+    "@phosphor-icons/react": "^2.1.5",
+    "effect": "^3.9.2",
+    "react": "~18.2.0",
+    "react-dom": "~18.2.0",
+    "react-router-dom": "^6.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.5.5",
+    "@types/react": "~18.2.0",
+    "@types/react-dom": "~18.2.0",
+    "@types/sharedworker": "^0.0.111",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.41",
+    "tailwindcss": "~3.4.1",
+    "vite": "5.4.7",
+    "vite-plugin-top-level-await": "^1.4.1",
+    "vite-plugin-wasm": "^3.3.0",
+    "workbox-window": "^7.0.0"
+  }
+}
